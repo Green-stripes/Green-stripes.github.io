@@ -1,0 +1,21 @@
+# Site settings
+title: Green-stripes Learns to Code
+header-img: img/home-bg.png
+email: kavericb@hotmail.com
+copyright_name: Green-stripes
+description: > # this means to ignore newlines until "baseurl:"
+  My coding journey from 0 to 1
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Green-stripes
+learn_profile: Green-stripes
+email_username: kavericb@hotmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
